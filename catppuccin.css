@@ -1,23 +1,23 @@
 :root {
   /* Catppuccin Colors */
-  --bg: #eff1f5;
-  --currentline: #bcc0cc;
-  --fg: #4c4f69;
-  --comment: #575268;
-  --flamingo: #dd7878;
-  --mauve: #8839ef;
-  --pink: #ea76cb;
-  --maroon: #e64553;
-  --red: #d20f39;
-  --peach: #fe640b;
-  --yellow: #df8e1d;
-  --green: #40a02b;
-  --teal: #179299;
-  --blue: #1e66f5;
-  --sky: #04a5e5;
-  --lavender: #7287fd;
-  --rosewater: #dc8a78;
-  --font: "JetBrainsMono Nerd Font Mono",monospace;
+  --bg: #303446;
+  --currentline: #51576d;
+  --fg: #c6d0f5;
+  --comment: #b5bfe2;
+  --flamingo: #eebebe;
+  --mauve: #ca9ee6;
+  --pink: #f4b8e4;
+  --maroon: #ea999c;
+  --red: #e78284;
+  --peach: #ef9f76;
+  --yellow: #e5c890;
+  --green: #a6d189;
+  --teal: #81c8be;
+  --blue: #8caaee;
+  --sky: #99d1db;
+  --lavender: #babbf1;
+  --rosewater: #f2d5cf;
+  --font: "JetBrainsMono Nerd Font Mono", monospace;
 
   /* vimium theme uses colors: flamingo, peach, rosewater, green, blue, lavender */
   --tridactyl-fg: var(--fg);
@@ -114,7 +114,7 @@
 #completions table tr td.prefix,
 #completions table tr td.privatewindow,
 #completions table tr td.container {
-/*#completions table tr td.icon {*/
+  /*#completions table tr td.icon {*/
   display: none;
 }
 
